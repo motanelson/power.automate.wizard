@@ -6,13 +6,19 @@ def returning():
     
     return a
 print( "\n\033c\033[40;37m\ngive the x value of the table ? ")
-#x=input()
-print( "\n\033[40;37m\ngive the y value of the table ? ")
-#y=input()
 x=79
 y=200
+c=0
+a="bitmap.dat"
+x=int(input())
+print( "\n\033[40;37m\ngive the y value of the table ? ")
+y=int(input())
+print( "\n\033[40;37m\ngive the color 0 to 15 ? ")
+c=int(input())+32
+f1=open(a,"w")
 for yy in range(y):
-    print()
+    
     for xx in range(x):
-        print(returning(),end="")
-print( "\n")
+        f1.write(chr(c))
+    f1.write(chr(10))
+f1.close()
