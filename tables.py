@@ -9,8 +9,8 @@ print( "\n\033c\033[40;37m\ngive the x value of the table ? ")
 #x=input()
 print( "\n\033[40;37m\ngive the y value of the table ? ")
 #y=input()
-x=10
-y=10
+x=79
+y=200
 for yy in range(y):
     print()
     for xx in range(x):
