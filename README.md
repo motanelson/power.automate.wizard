@@ -1,2 +1,1 @@
-# game.table.builder.symbol
-symbol level builder game table
+learn all about bitmaps bitmaps to games builders
