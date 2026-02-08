@@ -1,1 +1,1 @@
-learn all about bitmaps bitmaps to games builders
+power automate generates random numbers loto genareter
