@@ -1,6 +1,0 @@
-Variables.GenerateRandomNumber.ListOfRandomNumbers MinimumValue: 0 MaximumValue: 50 NumbersCount: 8 AllowDuplicates: False RandomNumbers=> RandomNumbers
-Display.ShowMessageDialog.ShowMessage Title: $'''ola mundo''' Message: RandomNumbers Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed
-DateTime.GetCurrentDateTime.Local DateTimeFormat: DateTime.DateTimeFormat.DateAndTime CurrentDateTime=> CurrentDateTime
-SET my TO CurrentDateTime
-Text.GetSubtext.GetSubtext Text: my CharacterPosition: 11 NumberOfChars: 8 Subtext=> Subtext
-Display.ShowMessageDialog.ShowMessage Title: $'''ola''' Message: Subtext Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed2
