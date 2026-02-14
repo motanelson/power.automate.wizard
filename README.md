@@ -1,1 +1,1 @@
-power automate generates random numbers loto genareter
+wizard genareter for mounter code to past on power automate
