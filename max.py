@@ -3,7 +3,7 @@ import copy
 def getlist(i:int): 
     l:list=[]
     for a in range(i):
-        l.append(copy.copy(a))
+        l.append(copy.copy(int(a)))
     return l
 
 def maxs(l:list):
@@ -20,4 +20,4 @@ def maxs(l:list):
 
 l=getlist(20)
 print(l)
-print(max(l))
+print(maxs(l))
