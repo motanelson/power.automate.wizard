@@ -15,6 +15,8 @@ def maxs(l:list):
         else:
             if aa>a:
                 a=aa
+        count=count+1
+        
     return a
 
 
